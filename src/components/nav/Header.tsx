@@ -11,7 +11,7 @@ const sectionItems = [
 
 export default function Header({}: Props) {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-50 shadow-lg">
       <div className="max-w-5xl mx-auto py-6 px-2">
         <div className="flex justify-between">
           {/* Logo */}
@@ -20,7 +20,7 @@ export default function Header({}: Props) {
           </div>
 
           {/* Sections */}
-          <div className="sm:hidden lg:inline">
+          <div className="hidden lg:inline">
             {sectionItems.map((item) => (
               <a
                 key={item.href}
@@ -33,7 +33,7 @@ export default function Header({}: Props) {
           </div>
 
           {/* End */}
-          <div className="sm:hidden lg:inline"></div>
+          <div className="hidden lg:inline"></div>
         </div>
       </div>
     </div>
