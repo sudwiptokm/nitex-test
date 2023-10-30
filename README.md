@@ -21,3 +21,6 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 ### Language: Typescript
 ### Animation Library: Framer Motion
 ### CSS Framework: Tailwind CSS
+
+#### Live Site Link: https://nitex-test.vercel.app/
+#### Personal Portfolio: https://www.sudwipto.com/
