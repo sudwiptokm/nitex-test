@@ -18,8 +18,8 @@ export default function PricingSection() {
         <div className="mx-auto max-w-2xl sm:text-center">
           <motion.h2
             className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
-            initial={{ opacity: 0, x: -200 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: -200 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}
           >
@@ -27,8 +27,8 @@ export default function PricingSection() {
           </motion.h2>
           <motion.p
             className="mt-6 text-lg leading-8 text-gray-600"
-            initial={{ opacity: 0, x: 200 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 200 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}
           >
