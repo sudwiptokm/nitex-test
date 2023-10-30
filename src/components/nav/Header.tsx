@@ -48,7 +48,7 @@ export default function Header({}: Props) {
           </div>
 
           {/* Sections */}
-          <div className="">
+          <div className="hidden lg:inline">
             {sectionItems.map((item) => (
               <a
                 key={item.href}
