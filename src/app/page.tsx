@@ -5,6 +5,7 @@ import FeaturedSection from "../components/sections/feature/FeaturedSection";
 import HeroSection from "../components/sections/hero/HeroSection";
 import PricingSection from "../components/sections/pricing/PricingSection";
 import StatsSection from "../components/sections/stats/StatsSection";
+import TestimonialSection from "../components/sections/testimonial/TestimonialSection";
 
 export default function Home() {
   return (
@@ -24,17 +25,17 @@ export default function Home() {
           <CarouselSection />
         </div>
 
-        {/* Section 3 */}
+        {/* Section 3 - with animation*/}
         <div>
           <FeaturedSection />
         </div>
 
-        {/* Section 4 */}
+        {/* Section 4 - with animation */}
         <div>
           <CTASection />
         </div>
 
-        {/* Section 5 */}
+        {/* Section 5 - with animation*/}
         <div>
           <PricingSection />
         </div>
@@ -42,6 +43,11 @@ export default function Home() {
         {/* Section 6 */}
         <div>
           <StatsSection />
+        </div>
+
+        {/* Section 7 */}
+        <div className="mt-20">
+          <TestimonialSection />
         </div>
       </main>
     </div>
