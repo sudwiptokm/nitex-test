@@ -1,5 +1,6 @@
 import Header from "../components/nav/Header";
 import CarouselSection from "../components/sections/carousel/CarouselSection";
+import CTASection from "../components/sections/cta/CTASection";
 import FeaturedSection from "../components/sections/feature/FeaturedSection";
 import HeroSection from "../components/sections/hero/HeroSection";
 
@@ -27,7 +28,9 @@ export default function Home() {
         </div>
 
         {/* Section 4 */}
-        <div></div>
+        <div>
+          <CTASection />
+        </div>
       </main>
     </div>
   );
