@@ -37,6 +37,7 @@ export default function CTASection() {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 1, delay: 1 }}
+              viewport={{ once: true }}
             >
               <p className="mt-6 text-lg leading-8 text-gray-300">
                 Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
@@ -63,6 +64,7 @@ export default function CTASection() {
             initial={{ opacity: 0, x: 100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.5 }}
+            viewport={{ once: true }}
           >
             <img
               className="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"

@@ -45,6 +45,7 @@ export default function FeaturedSection() {
       initial={{ opacity: 0, y: 500 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.5 }}
+      viewport={{ once: true }}
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
